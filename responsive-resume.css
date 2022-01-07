@@ -1,0 +1,77 @@
+@media (max-width: 640px) and (orientation: landscape) {
+
+    .first {
+        top: 10vh;
+    }
+
+    .keyboard {
+        width: 43vh;
+    }
+
+    img.cv {
+        top: 80%;
+    }
+
+    a.freepik {
+        bottom: -60%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 768px) and (orientation: portrait) {
+
+    .keyboard {
+        width: 25vh;
+    }
+
+    img.cv {
+        width: 60vw;
+    }
+
+    a.freepik {
+        top: 98vh;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .keyboard {
+        width: 30vh;
+        top: 60%;
+    }
+
+    img.cv {
+        width: 35vw;
+        left: 55%;
+    }
+
+    a.freepik {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1025px) and (orientation: landscape) {
+
+    .keyboard {
+        width: 45vh;
+        top: 40%;
+    }
+
+    img.cv {
+        top: 50%;
+        left: 55%;
+        width: 28vw;
+    }
+
+    a.freepik {
+        top: 97vh;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1601px) and (orientation: landscape) {
+
+    body {
+        background-size: cover;
+    }
+}

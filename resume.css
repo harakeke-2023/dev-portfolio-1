@@ -1,0 +1,67 @@
+body {
+    background-image: url("img/desk.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.keyboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25vh;
+    z-index: 1;
+}
+
+img.cv {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 280px;
+}
+
+img.cv {
+    object-fit: contain;
+    -o-object-fit: contain;
+    object-position: 50% 50%;
+    -o-object-position: 50% 50%;
+}
+
+img.cv:hover {
+    object-fit: none;
+    -o-object-fit: none;
+}
+
+img:not(:hover) {
+    object-position: 50% 50% !important;
+    -o-object-position: 50% 50% !important;
+}
+
+section.first {
+    top: 10vh;
+}
+
+h2 {
+    color: rgb(248, 89, 240);
+}
+
+span {
+    font-weight: bold;
+    color: rgb(248, 89, 240);
+}
+
+a.freepik {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    z-index: 1;
+}
