@@ -1,0 +1,154 @@
+@media (max-width: 640px) and (orientation: landscape) {
+
+    section.first {
+        top: 5vh;
+    }
+
+    div.above {
+        background-image: url("img/computer.png");
+    }
+
+    img.slider {
+        top: 50%;
+        left: 51%;
+        width: 50%;
+    }
+
+    .arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        width: 15%;
+    }
+
+    #arrowB {
+        top: 71vh;
+        right: 30%;
+        width: 15%;
+    }
+
+    #arrowL {
+        left: 5%;
+    }
+
+    #arrowR {
+        right: 5%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 768px) and (orientation: portrait) {
+
+    img.slider {
+        top: 57%;
+        left: 50%;
+        width: 75%;
+    }
+
+    #arrowB {
+        top: 69.5vh;
+        right: 22%;
+        width: 20%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape) {
+    div.above {
+        background-image: url("img/computer.png");
+        background-position: 52% 70%;
+    }
+
+    img.slider {
+        top: 50.5%;
+        left: 51%;
+        width: 55.5%;
+    }
+
+    .arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        width: 15%;
+    }
+
+    #arrowB {
+        top: 70vh;
+        right: 28%;
+        width: 15%;
+    }
+
+    #arrowL {
+        left: 5%;
+    }
+
+    #arrowR {
+        right: 5%;
+    }
+}
+
+@media (min-width: 1025px) and (orientation: landscape) {
+
+    section.first {
+        top: 3vh;
+    }
+
+    div.above {
+        background-image: url("img/computer.png");
+    }
+
+    img.slider {
+        top: 48%;
+        left: 51%;
+        width: 49%;
+    }
+
+    .arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        width: 15%;
+    }
+
+    #arrowB {
+        top: 73vh;
+        right: 30%;
+        width: 15%;
+    }
+
+    #arrowL {
+        left: 5%;
+    }
+
+    #arrowR {
+        right: 5%;
+    }
+}
+
+@media (min-width: 1601px) and (orientation: landscape) {
+
+    .arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        width: 15%;
+    }
+
+    #arrowL {
+        left: 5%;
+    }
+
+    #arrowR {
+        right: 5%;
+    }
+}
