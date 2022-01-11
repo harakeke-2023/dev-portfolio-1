@@ -1,0 +1,174 @@
+@media (max-width: 640px) and (orientation: landscape) {
+    body {
+        background-image: url("img/office.jpg");
+        min-height: 640px;
+    }
+
+    form {
+        top: 25%;
+        left: 60%;
+    }
+
+    footer {
+        position: absolute;
+        top: 640px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 768px) and (orientation: portrait) {
+
+    body {
+        min-height: 1024px;
+    }
+
+    form {
+        top: 30%;
+        width: 300px;
+        height: 550px;
+    }
+
+    input {
+        height: 44px;
+    }
+
+    #user {
+        top: 44px;
+        font-size: 14px;
+    }
+
+    #email {
+        top: 110px;
+        font-size: 14px;
+    }
+
+    textarea {
+        font-size: 14px;
+        top: 176px;
+        height: 132px;
+    }
+
+    button.send {
+        font-size: 14px;
+        top: 330px;
+        height: 44px;
+    }
+
+    .sign {
+        top: 396px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .icons {
+        top: 484px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        background-image: url("img/ipad.jpg");
+        min-height: 1024px;
+        overflow: hidden;
+    }
+
+    .first h2 {
+        padding-bottom: 20px;
+    }
+
+    form {
+        left: 70%;
+        width: 300px;
+        height: 550px;
+    }
+
+    input {
+        height: 44px;
+    }
+
+    #user {
+        top: 44px;
+        font-size: 14px;
+    }
+
+    #email {
+        top: 110px;
+        font-size: 14px;
+    }
+
+    textarea {
+        font-size: 14px;
+        top: 176px;
+        height: 132px;
+    }
+
+    button.send {
+        font-size: 14px;
+        top: 330px;
+        height: 44px;
+    }
+
+    .sign {
+        top: 396px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .icons {
+        top: 484px;
+    }
+
+}
+
+@media (min-width: 1025px) and (orientation: landscape) {
+    body {
+        background-image: url("img/big.jpg");
+        overflow: hidden;
+        min-height: 1025px;
+    }
+
+    .first h2 {
+        padding-bottom: 20px;
+    }
+
+    form {
+        left: 70%;
+        width: 300px;
+        height: 550px;
+    }
+
+    input {
+        height: 44px;
+    }
+
+    #user {
+        top: 44px;
+        font-size: 14px;
+    }
+
+    #email {
+        top: 110px;
+        font-size: 14px;
+    }
+
+    textarea {
+        font-size: 14px;
+        top: 176px;
+        height: 132px;
+    }
+
+    button.send {
+        font-size: 14px;
+        top: 330px;
+        height: 44px;
+    }
+
+    .sign {
+        top: 396px;
+        padding: 0px 50px 0px 50px;
+        height: 88px;
+    }
+
+    .icons {
+        top: 484px;
+        height: 44px;
+    }
+
+}
